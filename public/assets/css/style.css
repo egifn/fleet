@@ -1,0 +1,148 @@
+body {
+    font-size: 0.8rem;
+}
+
+.btn-xsm {
+    padding: 1px 5px 1px 5px;
+    font-size: .7rem;
+    border-radius: 0.2rem;
+}
+
+.button-action {
+    font-size: 11px;
+    margin: 0;
+    background-color: #ffc107;
+    color: #212529;
+    border: 1px solid #ffc107;
+    padding: 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-action:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+    color: #fff;
+}
+
+
+.footer-button {
+    position: fixed;
+    margin-bottom: 28px;
+    padding: 10px;
+    bottom: 0;
+    right: 0;
+    color: #74788d;
+    background-color: #fff;
+    border-top: 1px solid #e9e9ef;
+    height: 60px;
+    width: 100%;
+}
+
+table.dataTable>thead .sorting,
+table.dataTable>thead .sorting_asc,
+table.dataTable>thead .sorting_desc,
+table.dataTable>thead .sorting_asc_disabled,
+table.dataTable>thead .sorting_desc_disabled {
+    cursor: pointer;
+    position: inherit;
+}
+
+table.dataTable>thead .sorting:before,
+table.dataTable>thead .sorting_asc:before,
+table.dataTable>thead .sorting_desc:before,
+table.dataTable>thead .sorting_asc_disabled:before,
+table.dataTable>thead .sorting_desc_disabled:before {
+    right: 1em;
+    content: "";
+}
+
+table.dataTable>thead .sorting:after,
+table.dataTable>thead .sorting_asc:after,
+table.dataTable>thead .sorting_desc:after,
+table.dataTable>thead .sorting_asc_disabled:after,
+table.dataTable>thead .sorting_desc_disabled:after {
+    right: 0.5em;
+    content: "";
+}
+
+.table th,
+.table td {
+    white-space: nowrap;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* Tetap menjaga pengalaman scrolling */
+    scrollbar-width: thin;
+    /* Untuk Firefox */
+}
+
+.table-responsive::-webkit-scrollbar {
+    display: none;
+    /* Untuk Chrome, Safari, Edge */
+}
+
+.card-dashboard {
+    border-radius: 2px;
+    background-color: #266f8d;
+}
+
+.card-header-dashboard {
+    border-bottom: 1px solid;
+    color: #ffffff;
+    padding: 5px 15px;
+    font-weight: 200;
+    font-size: 12px;
+    text-align: left;
+}
+
+.card-body-dashboard {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body-dashboard h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.card-body-dashboard h4 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.card-title-dashboard {
+    font-size: 20px;
+    color: white
+}
+
+.card-dashboard:hover {
+    opacity: 85%;
+}
+
+.card-dashboard-info {
+    background-color: #266f8d;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body-dashboard-info {
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-body-dashboard-info p {
+    margin: 0;
+    padding: 0;;
+}
